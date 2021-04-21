@@ -26,10 +26,12 @@ h4{
 /* Body */
 
 body{
-     margin: 12px;
-     max-width: 60em;
-     padding: 0.5%;
      background-color: #335E99;
+     background-image: ;
+     background-repeat: no-repeat;
+     background-position: center top;
+     background-size: contain;
+     background-attach: fixed;
      }
 
 img{
@@ -86,6 +88,8 @@ p{
    font-size: 1em;
    color: black;
    }
+   /* Background */
+   
    
 /* Break point */
 
