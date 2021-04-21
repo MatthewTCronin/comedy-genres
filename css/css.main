@@ -1,0 +1,92 @@
+h1{
+   font-family: "open sans", sans-serif, trebuchet MS, tahoma, verdana;
+   font-size: 10em;
+   color: white;
+   }
+
+h2{
+   font-family: sans-serif, tahoma, verdana, arial black;
+   font-size: 6em;
+   color: white;
+   }
+   
+h3{
+   font-family: sans-serif, tahoma, arial black, arial;
+   font-size: 3em;
+   color: white;
+   }
+
+h4{
+   font-family: sans-serif, tahoma, arial black, arial;
+   font-size: 2em;
+   font-style: italic;
+   color: white;
+   }
+
+/* Body */
+
+body{
+     margin: 12px;
+     max-width: 60em;
+     padding: 0.5%;
+     background-color: #335E99;
+     }
+
+img{
+   margin: 12px;
+     max-width: 60em;
+     padding: 0.5%;
+   float: right;
+}
+
+nav{
+    font-family: sans-serif, arial black, arial;
+  line-height: 1.5;
+   font-size: 1em;
+   color: white; 
+}
+
+!div{
+   font-family: sans-serif, arial black, arial;
+  line-height: 1.5 em;
+   font-size: 1 em;
+   color: white;
+   display: grid;
+   grid-template-rows: repeat (100%, auto);
+   grid-template-columns: repeat (auto, 100%);
+   grid-auto-flow: column;
+}
+
+table{
+   font-family: sans-serif, arial black, arial;
+  line-height: 1.5;
+   font-size: 1em;
+   color: white;
+   display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: white;
+   margin: 1em 0;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+a{
+  font-family: sans-serif, arial black, arial;
+  line-height: 1.5;
+   font-size: 1em;
+   color: white;
+}
+
+p{
+  font-family: sans-serif, arial black, arial;
+  line-height: 1.5;
+   font-size: 1em;
+   color: black;
+   }
+   
+/* Break point */
+
+{@media (min-width: 45em)}     
