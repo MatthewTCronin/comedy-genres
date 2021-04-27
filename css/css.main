@@ -48,7 +48,7 @@ nav{
    color: white; 
 }
 
-!div{
+div{
    font-family: sans-serif, arial black, arial;
   line-height: 1.5 em;
    font-size: 1 em;
