@@ -26,6 +26,7 @@ h4{
 /* Body */
 html {
   font: 100%/1.15 sans-serif;
+  font-color: #fff;
 }
 
 img {
@@ -54,7 +55,7 @@ figcaption {
 } 
 
 body{
-     background-color: #335E99;
+     background-color: #000;
      background-image: ComedyBackdrop-01.jpg;
      background-repeat: no-repeat;
      background-position: center top;
@@ -107,7 +108,7 @@ p{
   font-family: sans-serif, arial black, arial;
   line-height: 1.5;
    font-size: 1em;
-   color: black;
+   color: #fff;
    }
    /* Background */
    
