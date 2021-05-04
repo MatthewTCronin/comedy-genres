@@ -24,6 +24,34 @@ h4{
    }
 
 /* Body */
+html {
+  font: 100%/1.15 sans-serif;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: 0.8em;
+  line-height: 1.35;
+  padding: 1rem;
+}
+
+/* Breakpoint defined in Grid layout */
+  
+.grid-image {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+} 
 
 body{
      background-color: #335E99;
@@ -33,13 +61,6 @@ body{
      background-size: contain;
      background-attach: fixed;
      }
-
-img{
-   margin: 12px;
-     max-width: 60em;
-     padding: 0.5%;
-   float: right;
-}
 
 nav{
     font-family: sans-serif, arial black, arial;
