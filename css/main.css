@@ -46,6 +46,7 @@ figure {
 
 figcaption {
   font-size: 0.8em;
+  text-align: center;
   line-height: 1.35;
   padding: 1rem;
 }
