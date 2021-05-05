@@ -24,10 +24,14 @@ h4{
    }
 
 /* Body */
+
+
 html {
   font: 100%/1.15 sans-serif;
   font-color: #fff;
 }
+
+@media (min-width: 45em){ 
 
 img {
   width: auto;
@@ -110,9 +114,9 @@ p{
    font-size: 1em;
    color: #fff;
    }
+}
    /* Background */
    
    
 /* Break point */
-
-{@media (min-width: 45em)}     
+   
