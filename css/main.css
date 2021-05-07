@@ -61,7 +61,7 @@ figcaption {
 
 body{
      background-color: #000;
-     background-image: ComedyBackdrop-01.jpg;
+     background-image: url(ComedyBackdrop-01.jpg);
      background-repeat: no-repeat;
      background-position: center top;
      background-size: contain;
