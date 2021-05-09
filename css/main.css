@@ -31,7 +31,7 @@ html {
   color: #fff;
 }
 
-@media (min-width: 45em){ 
+ 
 
 img {
   width: auto;
@@ -104,9 +104,25 @@ p{
    font-size: 1em;
    color: #fff;
    }
-}
+
    /* Background */
    
    
 /* Break point */
-   
+ @media (min-width: 45em) {
+
+/* Rescale all text and/or em-based elements to improve readability (and overall user experience) */
+
+  /*
+  Resource:
+  https://practicaltypography.com/line-length.html
+  */
+
+  body {
+    font-size: 115%; /* Rescale text, depending on line length of content */
+    }
+img{
+   min-width: 75%
+    }
+    
+}  
