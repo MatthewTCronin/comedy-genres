@@ -37,7 +37,7 @@ html {
 
 img {
   width: auto;
-  max-width: 100%;
+  max-width: 125%;
   height: auto;
   vertical-align: middle;
 }
@@ -57,7 +57,7 @@ figcaption {
   
 .grid-image {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1rem;
 } 
 
