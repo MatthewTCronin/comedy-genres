@@ -58,6 +58,7 @@ ul {
   text-align: center;
   line-height: 1.35;
   padding: 1rem;
+   margin: 8px;
 }
 
 /* Breakpoint defined in Grid layout */
