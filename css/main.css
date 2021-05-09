@@ -36,9 +36,9 @@ html {
  
 
 img {
-  width: 1462;
-  max-width: 200%;
-  height: 1462;
+  width: auto;
+  max-width: 100%;
+  height: auto;
   vertical-align: middle;
 }
 
