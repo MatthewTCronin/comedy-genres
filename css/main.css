@@ -53,6 +53,13 @@ figcaption {
   padding: 1rem;
 }
 
+dl {
+  font-size: 0.8em;
+  text-align: center;
+  line-height: 1.35;
+  padding: 1rem;
+}
+
 /* Breakpoint defined in Grid layout */
   
 .grid-image {
