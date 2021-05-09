@@ -57,7 +57,7 @@ figcaption {
   
 .grid-image {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 1rem;
 } 
 
