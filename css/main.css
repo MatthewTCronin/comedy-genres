@@ -9,6 +9,7 @@ h2{
    font-family: sans-serif, tahoma, verdana, arial black;
    font-size: 6em;
    color: white;
+   text-align: center;
    }
    
 h3{
@@ -134,5 +135,7 @@ p{
 img{
    min-width: 75%
     }
-    
+ h2{
+    font size: 1em;
+    }
 }  
